@@ -1,0 +1,14 @@
+div{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    /* transition: 1s; */
+    transition: margin-top 1s ease-in 0.2s;
+}
+
+div:hover{
+    background-color: rgb(232, 92, 116);
+    margin-top: 400px;
+}
