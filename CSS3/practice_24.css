@@ -1,0 +1,31 @@
+#fir{
+    background-color: violet;
+    height: 220px;
+    width: 260px;
+    margin: 100px auto;
+    /* Box shadow */
+    box-shadow: 10px 10px 5px rgb(203, 71, 71);
+    transition: 1s;
+}
+
+#fir:hover{
+    transform: rotate(45deg);
+}
+
+#fir:active{
+    transform: scale(2);
+}
+
+#sec{
+    background-color: violet;
+    height: 260px;
+    width: 260px;
+    margin: 100px auto;
+     /* Box shadow */
+     box-shadow: 10px 10px 3px rgb(206, 171, 100);
+     transition: border-radius 1s ease 1s;
+}
+
+#sec:hover{
+    border-radius: 50%;
+}
