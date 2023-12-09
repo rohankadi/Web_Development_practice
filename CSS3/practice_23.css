@@ -1,0 +1,44 @@
+section{
+    margin-top: 100px;
+}
+div{
+height: 80px;
+width: 200px;
+border: 2px solid black;
+margin: 10px auto;
+background-color: #7aa874;
+}
+
+
+div:nth-of-type(2n){
+    background-color: rgb(197, 213, 81);
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/* Transform */
+#one{
+   transform:rotate(30deg);
+}
+#two{
+    transform: scale(0.5);
+}
+#three{
+ /* scale(x, y) */
+transform : scale(1.5, 0.5)
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(0.5); */
+
+}
+#four{
+    /* transform: translate(100px); */
+    transform: translate(-100px, -30px);
+}
+#five{
+   transform: skew(30deg);
+}
+#six{
+   transform: rotate(30deg) translateX(150px); 
+}
