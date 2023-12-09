@@ -1,0 +1,24 @@
+#fir{
+    width: 600px;
+    height: 200px;
+    background-color: #7aa874;
+    background-image: url("image1.jpg");
+    margin: 10px auto;
+    background-size: contain;
+}
+
+#sec{
+width: 600px;
+height: 200px;
+background-image: url("image1.jpg");
+margin: 10px auto;
+background-size: cover;
+}
+
+#thr{
+width: 600px;
+height: 200px;
+background-image: url("image1.jpg");
+margin: 10px auto;
+background-size:auto
+}
