@@ -1,0 +1,29 @@
+.container{
+    height: 600px;
+    width:80%;
+    border: 2px solid black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    color: #fff;
+}
+#orange{
+    /* 09 felx-grow */
+    /* flex-grow: 1; */
+
+    flex: 2 2 100px;
+}
+
+#blue{
+    align-self: flex-start;
+    font-size: 12px;
+    /* flex-grow: 1; */
+    flex-shrink: 3;
+}
