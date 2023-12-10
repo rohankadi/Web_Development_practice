@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid black;
+    height: 300px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    color: #fff;
+    font-size: 1rem;
+    width: 70px;
+    height: 150px;
+}
