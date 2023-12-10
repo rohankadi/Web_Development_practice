@@ -1,0 +1,48 @@
+.container{
+    border: 2px solid black;
+    height: 400px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    /* 01. flex-direction */
+    /* flex-direction: column;
+    flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    
+    /* 02 justify content */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */
+
+    /* 03 flex-wrap */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+
+    /* 4. flex-flow */
+    /* flex-flow: column; */
+    /* flex-flow: column-reverse; */
+    /* flex-flow: row; */
+    /* flex-flow: row-reverse; */
+
+    /* 5. align-items */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    color: #fff;
+    font-size: 1rem;
+    width: 70px;
+    height: 150px;
+}
