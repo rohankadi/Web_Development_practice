@@ -1,0 +1,43 @@
+.container {
+    border: 2px solid black;
+    height: 600px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+
+    /* 06. align-content */
+    /* align-content: baseline;
+    align-content: center;
+    align-content: flex-end;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+    align-content: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    color: #fff;
+    font-size: 1.5em;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+#orange {
+    font-size: 15px;
+    /* 07 align-self ==>(apply for Individual elements) */
+    /* align-self: flex-end;
+    align-self: center;
+    align-self: stretch; */
+    align-self: flex-start;
+
+    /* 08 flex-basis */
+    flex-basis: 50px;
+}
