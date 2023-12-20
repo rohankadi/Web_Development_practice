@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script> 
+        let a = [1, 2, 3, 4, 5, 6, 7]
+        //01 //map returns array
+        a.map((value, index, array) => {
+            //   console.log(value, index)
+            console.log(value + index)
+        })
+
+
+        //02 //filter returns array
+        let b = a.filter((value) => {
+            return value < 5;
+        })
+        console.log(b)
+
+        //03
+        let c = a.filter((value)=>{
+            return value > 3;
+        })
+        console.log(c)
+    </script>
+</body>
+
+</html>
