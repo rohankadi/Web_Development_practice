@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+  </body>
+  <!-- <script>
+    const Pi = 3.142156;
+          Pi = 3.14
+     document.getElementById("demo").innerHTML = Pi 
+     //throws an error cz its not modified and also it's block scope, cannot reassigned and cannot be redeclared.
+     </script> -->
+
+  <script>
+    // Create an object:
+    const car = { type: "Fiat", model: "500", color: "white" };
+
+    // Change a property:
+    car.color = "red";
+
+    // Add a property:
+    car.owner = "Johnson";
+
+    // Display the property:
+    document.getElementById("demo").innerHTML = "Car owner is " + car.owner;
+  </script>
+</html>
