@@ -1,0 +1,28 @@
+<!--Objects-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+       //01
+    //    const carProp = {Type: "Fiat", Color : "Black" , model : "500"}
+    //     document.getElementById("demo").innerHTML = "The type of car is " + carProp.Type
+
+    //02
+    const Name = {
+        firstName : "John", 
+        lastName: "Doe" , 
+        age : "50"};
+    document.getElementById("demo").innerHTML = Name.firstName + " is " + Name.age + " Years old." 
+    //or
+    document.getElementById("demo1").innerHTML = Name["firstName"] + " is " + Name["age"] + " Years old." 
+    </script>
+</body>
+</html>
